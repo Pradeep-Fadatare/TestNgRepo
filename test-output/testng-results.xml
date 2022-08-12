@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-03T14:37:57 IST" name="Default Suite" finished-at="2022-08-03T14:37:57 IST" duration-ms="185">
+    <groups>
+      <group name="bvt">
+        <method signature="GroupTesting.method2()[pri:5, instance:BasicTestNg.GroupTesting@1b410b60]" name="method2" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method4()[pri:1, instance:BasicTestNg.GroupTesting@1b410b60]" name="method4" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method5()[pri:4, instance:BasicTestNg.GroupTesting@1b410b60]" name="method5" class="BasicTestNg.GroupTesting"/>
+      </group> <!-- bvt -->
+      <group name="UserResitration">
+        <method signature="GroupTesting.method1()[pri:6, instance:BasicTestNg.GroupTesting@1b410b60]" name="method1" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method2()[pri:5, instance:BasicTestNg.GroupTesting@1b410b60]" name="method2" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method3()[pri:3, instance:BasicTestNg.GroupTesting@1b410b60]" name="method3" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method4()[pri:1, instance:BasicTestNg.GroupTesting@1b410b60]" name="method4" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method5()[pri:4, instance:BasicTestNg.GroupTesting@1b410b60]" name="method5" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method6()[pri:2, instance:BasicTestNg.GroupTesting@1b410b60]" name="method6" class="BasicTestNg.GroupTesting"/>
+      </group> <!-- UserResitration -->
+      <group name="regression">
+        <method signature="GroupTesting.method1()[pri:6, instance:BasicTestNg.GroupTesting@1b410b60]" name="method1" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method3()[pri:3, instance:BasicTestNg.GroupTesting@1b410b60]" name="method3" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method5()[pri:4, instance:BasicTestNg.GroupTesting@1b410b60]" name="method5" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method6()[pri:2, instance:BasicTestNg.GroupTesting@1b410b60]" name="method6" class="BasicTestNg.GroupTesting"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupTesting.method2()[pri:5, instance:BasicTestNg.GroupTesting@1b410b60]" name="method2" class="BasicTestNg.GroupTesting"/>
+        <method signature="GroupTesting.method3()[pri:3, instance:BasicTestNg.GroupTesting@1b410b60]" name="method3" class="BasicTestNg.GroupTesting"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-08-03T14:37:57 IST" name="TestNgAutomationByPradeep" finished-at="2022-08-03T14:37:57 IST" duration-ms="185">
+      <class name="BasicTestNg.GroupTesting">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:BasicTestNg.GroupTesting@1b410b60]" started-at="2022-08-03T14:37:57 IST" name="beforeclass" finished-at="2022-08-03T14:37:57 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="method4()[pri:1, instance:BasicTestNg.GroupTesting@1b410b60]" started-at="2022-08-03T14:37:57 IST" name="method4" finished-at="2022-08-03T14:37:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method signature="method6()[pri:2, instance:BasicTestNg.GroupTesting@1b410b60]" started-at="2022-08-03T14:37:57 IST" name="method6" finished-at="2022-08-03T14:37:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method signature="method3()[pri:3, instance:BasicTestNg.GroupTesting@1b410b60]" started-at="2022-08-03T14:37:57 IST" name="method3" finished-at="2022-08-03T14:37:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method signature="method5()[pri:4, instance:BasicTestNg.GroupTesting@1b410b60]" started-at="2022-08-03T14:37:57 IST" name="method5" finished-at="2022-08-03T14:37:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+        <test-method signature="method2()[pri:5, instance:BasicTestNg.GroupTesting@1b410b60]" started-at="2022-08-03T14:37:57 IST" name="method2" finished-at="2022-08-03T14:37:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method signature="method1()[pri:6, instance:BasicTestNg.GroupTesting@1b410b60]" started-at="2022-08-03T14:37:57 IST" name="method1" finished-at="2022-08-03T14:37:57 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:BasicTestNg.GroupTesting@1b410b60]" started-at="2022-08-03T14:37:57 IST" name="afterclass" finished-at="2022-08-03T14:37:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- BasicTestNg.GroupTesting -->
+    </test> <!-- TestNgAutomationByPradeep -->
+  </suite> <!-- Default Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ITestListener.ItestListener1"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/91956/IdeaProjects/TestNgAutomationByPradeep/src/test/java/ITestListener/ListenersTest.java">
+        <classes>
+            <class name="ITestListener.ListenersTest">
+                <methods>
+                    <include name="Test1"/>
+                    <include name="Test2"/>
+                    <include name="Test3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
